@@ -1,0 +1,52 @@
+body{
+    user-select: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+#contenedorJuego{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+
+}
+
+.cuadrado{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.medio{
+    border-left: 5px solid;
+    border-right: 5px solid;
+}
+
+.arriba{
+    border-bottom: 5px solid;
+
+}
+
+.abajo{
+    border-top: 5px solid;
+}
+
+.ganador{
+    background-color: red;
+}
+
+dialog{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+dialog h2{
+    font-family: sans-serif;
+}
